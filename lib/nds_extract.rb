@@ -27,10 +27,12 @@ end
 
 def list_of_directors(source)
   # Write this implementation
+  list = []
   director_index = 0
   while director_index < source.size do
-    puts "source[#{director_index}] prints..."
-    pp source
+    list.push(source[director_index][:name])
+    #puts "source[#{director_index}] prints..."
+    #pp source
     director_index += 1  
   end
   
