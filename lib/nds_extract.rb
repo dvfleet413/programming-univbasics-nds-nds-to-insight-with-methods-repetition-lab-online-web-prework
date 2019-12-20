@@ -29,8 +29,8 @@ def list_of_directors(source)
   # Write this implementation
   director_index = 0
   while director_index < source.size do
-    puts "source[#{director_index}] is prints..."
-    pp source[director_index]
+    puts "source[#{director_index}] prints..."
+    pp source
     director_index += 1  
   end
   
