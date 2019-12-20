@@ -35,7 +35,7 @@ def list_of_directors(source)
     #pp source
     director_index += 1  
   end
-  
+  list
 end
 
 def total_gross(source)
